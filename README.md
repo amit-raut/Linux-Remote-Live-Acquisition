@@ -22,4 +22,5 @@ The preferred way for sending and receiving the files in this is via key based a
 ◦ The gztar archive is then sent back to the examiner system over secure copy (SCP)
 
 # Usage
-'Usage: linuxRemoteLiveAcquition -i <examiner system IP address> -u <remote system user>'
+◦ 'Usage: linuxRemoteLiveAcquition -u [remote system user] -i [examiner system IP address]'
+
