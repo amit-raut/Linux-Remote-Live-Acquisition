@@ -1,0 +1,21 @@
+date -u
+cat /proc/version
+hostname
+domainname
+cat /proc/cpuinfo
+cat /proc/swaps
+cat /proc/partitions
+cat /proc/mounts
+uptime
+arp -an
+route 
+netstat -an
+cat /proc/modules
+lsof -n -P -l
+ifconfig
+ps aux
+free
+df
+w
+ss -l
+date

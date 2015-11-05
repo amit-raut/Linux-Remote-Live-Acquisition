@@ -1,0 +1,86 @@
+#!/usr/bin/env python
+__author__ = 'AR'
+
+import os, time, datetime, hashlib, shutil, socket, subprocess as sp
+
+path = '/tmp/LiveAcquisition/'
+
+if len(os.sys.argv) < 5:
+	print 'Usage: linuxRemoteLiveAcquition -u [remote system username] -i [examiner system IP address]'
+	os.sys.exit()
+else:
+	if '-i' in os.sys.argv:
+		destDomain = os.sys.argv[os.sys.argv.index('-i') + 1]
+	if '-u' in os.sys.argv:
+		user = os.sys.argv[os.sys.argv.index('-u') + 1]
+	if '-i' not in os.sys.argv or '-u' not in os.sys.argv:
+		print 'Usage: linuxRemoteLiveAcquition -u [remote system username] -i [examiner system IP address]'
+		os.sys.exit()
+
+def CheckConnection(destDomain):
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	try:
+		s.settimeout(5)
+		s.connect((destDomain, 22))
+		print 'Connection to ' + destDomain + ' was successful! :-)'
+	except socket.error as e:
+		print 'Connection to ' + destDomain + ' failed :-(. Please Retry....\nError: ', e
+		os.sys.exit() 
+	s.close()
+
+def main():
+	# Look for the new .livedata file in Path folder
+	cmdList = []
+	cmdNumber = 1
+	if not os.path.exists(path):
+		os.makedirs(path)
+	while True:
+		for filename in os.listdir(path):
+			if filename.endswith('.livedata'):
+				with open(path + filename, 'r') as cmdFile:
+					cmdList = cmdFile.read().splitlines()
+		if len(cmdList):
+			break
+		time.sleep(2)
+
+	outPath = path + str(datetime.datetime.now()) + '/'
+	os.makedirs(outPath)
+
+	print 'Executing Commands....'
+	# Execute every command to perform Linux live acquisition
+	for cmd in cmdList:
+		if len(cmd):
+			with open(outPath + str(cmdNumber) + cmd.split()[0]  + '.output', 'a') as outFile:
+				ps = sp.Popen(cmd, stderr=sp.PIPE, stdout=outFile, shell=True)
+				outFile.write('\nOutput for ' + cmd + '\n')
+				time.sleep(0.2)
+				ps.terminate()
+
+				cmdNumber += 1
+
+	print 'Calculating SHA256 Hash For Output Files....'
+	# Calcualte the SHA256 hash of every output file
+	for filename in os.listdir(outPath):
+		if filename.endswith('.output'):
+			with open(outPath  + filename + '.sha256', 'a') as hashFile:
+				hashFile.write(str(hashlib.sha256(open(outPath + filename, 'rb').read()).hexdigest()))
+
+	print 'Archiving The Directory....'
+	# Creating gztar archive and sending it to the examinor system
+	shutil.make_archive('/tmp/liveAcquisitionData', 'gztar', outPath)
+	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa /tmp/liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':/'
+	print 'Sending liveAcquisitionData.tar.gz via scp....'
+	os.system(scpCommand)
+
+	print 'Removing Temporary Files....\n'
+	# Cleaning folder content
+	shutil.rmtree(path)
+	
+
+
+if __name__ == '__main__':
+	print '{:*^70}\n'.format(' Linux System Live Acquisition ')
+	CheckConnection(destDomain)
+	print 'Waiting For Command File....'
+	main()
+	print '{:*^70}\n'.format(' EOP ')
