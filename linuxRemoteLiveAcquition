@@ -22,9 +22,9 @@ def CheckConnection(destDomain):
 	try:
 		s.settimeout(5)
 		s.connect((destDomain, 22))
-		print 'Connection to ' + destDomain + ' was successful! :-)'
+		print '{:.<50}'.format('Connection to ' + destDomain + ' was successful! :-)')
 	except socket.error as e:
-		print 'Connection to ' + destDomain + ' failed :-(. Please Retry....\nError: ', e
+		print '{:.<50}'.format('Connection to ' + destDomain + ' failed :-(. Please Retry....\nError: ' + str(e))
 		os.sys.exit() 
 	s.close()
 
@@ -46,7 +46,7 @@ def main():
 	outPath = path + str(datetime.datetime.now()) + '/'
 	os.makedirs(outPath)
 
-	print 'Executing Commands....'
+	print '{:.<50}'.format('Executing Commands')
 	# Execute every command to perform Linux live acquisition
 	for cmd in cmdList:
 		if len(cmd):
@@ -55,32 +55,36 @@ def main():
 				outFile.write('\nOutput for ' + cmd + '\n')
 				time.sleep(0.2)
 				ps.terminate()
-
 				cmdNumber += 1
 
-	print 'Calculating SHA256 Hash For Output Files....'
+	print '{:.<50}'.format('Calculating SHA256 Hash For Output Files')
 	# Calcualte the SHA256 hash of every output file
 	for filename in os.listdir(outPath):
 		if filename.endswith('.output'):
 			with open(outPath  + filename + '.sha256', 'a') as hashFile:
 				hashFile.write(str(hashlib.sha256(open(outPath + filename, 'rb').read()).hexdigest()))
 
-	print 'Archiving The Directory....'
+	print '{:.<50}'.format('Archiving The Directory')
 	# Creating gztar archive and sending it to the examinor system
-	shutil.make_archive('/tmp/liveAcquisitionData', 'gztar', outPath)
-	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa /tmp/liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':/'
-	print 'Sending liveAcquisitionData.tar.gz via scp....'
-	os.system(scpCommand)
+	shutil.make_archive('/tmp/liveAcquisitionData', 'gztar', path)
+	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa /tmp/liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':~/Desktop/'
 
-	print 'Removing Temporary Files....\n'
+	print '{:.<50}'.format('Sending liveAcquisitionData.tar.gz via scp ')
+	status = os.system(scpCommand)
+	if not status:
+		print '{:.<50}'.format('Transfer Successful. :-)')
+	else:
+		print '{:.<50}'.format('Transfer Failed. :-(')
+
+	print '{:.<50}'.format('Removing Temporary Files')	
 	# Cleaning folder content
 	shutil.rmtree(path)
 	
 
 
 if __name__ == '__main__':
-	print '{:*^70}\n'.format(' Linux System Live Acquisition ')
+	print '\n{:*^50}\n'.format(' Linux Remote Live Acquisition ')
 	CheckConnection(destDomain)
-	print 'Waiting For Command File....'
+	print '{:.<50}'.format('Waiting For Command File ')
 	main()
-	print '{:*^70}\n'.format(' EOP ')
+	print '\n{:*^50}\n'.format(' EOP ')
