@@ -1,21 +1,31 @@
+cat ~/.bash_history
 date -u
 cat /proc/version
+dmidecode --type processor
 hostname
 domainname
 cat /proc/cpuinfo
+cat /proc/meminfo
 cat /proc/swaps
-cat /proc/partitions
-cat /proc/mounts
+cat /proc/partitions | column -t
+cat /proc/net/dev
+cat /proc/scsi/scsi
+cat /proc/modules
+cat /etc/shadow
+lscpu
+mount | column -t
+find ~/ -executable -type f -mtime -7
+last
 uptime
 arp -an
 route 
 netstat -an
-cat /proc/modules
 lsof -n -P -l
 ifconfig
 ps aux
 free
-df
+df -H
 w
 ss -l
 date
+

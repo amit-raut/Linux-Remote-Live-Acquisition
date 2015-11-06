@@ -5,6 +5,11 @@ import os, time, datetime, hashlib, shutil, socket, subprocess as sp
 
 path = '/tmp/LiveAcquisition/'
 
+# Check if program is running as root user or not
+if os.getenv('SUDO_USER') is None:
+	print '{:.^70}'.format('Running Program As Non Root User. Some Command May Not Work.') 
+
+# Validate the arguments
 if len(os.sys.argv) < 5:
 	print 'Usage: linuxRemoteLiveAcquition -u [remote system username] -i [examiner system IP address]'
 	os.sys.exit()
@@ -22,9 +27,9 @@ def CheckConnection(destDomain):
 	try:
 		s.settimeout(5)
 		s.connect((destDomain, 22))
-		print '{:.<50}'.format('Connection to ' + destDomain + ' was successful! :-)')
+		print '{:.<70}'.format('Connection to ' + destDomain + ' was successful! :-)')
 	except socket.error as e:
-		print '{:.<50}'.format('Connection to ' + destDomain + ' failed :-(. Please Retry....\nError: ' + str(e))
+		print '{:.<70}'.format('Connection to ' + destDomain + ' failed :-(. Please Retry....\nError: ' + str(e))
 		os.sys.exit() 
 	s.close()
 
@@ -35,8 +40,9 @@ def main():
 	if not os.path.exists(path):
 		os.makedirs(path)
 	while True:
-		for filename in os.listdir(path):
+		for filename in os.listdir('/tmp/'):
 			if filename.endswith('.livedata'):
+				shutil.move('/tmp/' + filename, path)
 				with open(path + filename, 'r') as cmdFile:
 					cmdList = cmdFile.read().splitlines()
 		if len(cmdList):
@@ -46,45 +52,45 @@ def main():
 	outPath = path + str(datetime.datetime.now()) + '/'
 	os.makedirs(outPath)
 
-	print '{:.<50}'.format('Executing Commands')
+	print '{:.<70}'.format('Executing Commands')
 	# Execute every command to perform Linux live acquisition
 	for cmd in cmdList:
 		if len(cmd):
-			with open(outPath + str(cmdNumber) + cmd.split()[0]  + '.output', 'a') as outFile:
+			with open(outPath + str(cmdNumber) + ' ' + cmd.replace('/', '-')  + '.txt', 'a') as outFile:
 				ps = sp.Popen(cmd, stderr=sp.PIPE, stdout=outFile, shell=True)
-				outFile.write('\nOutput for ' + cmd + '\n')
 				time.sleep(0.2)
 				ps.terminate()
 				cmdNumber += 1
 
-	print '{:.<50}'.format('Calculating SHA256 Hash For Output Files')
+	print '{:.<70}'.format('Calculating SHA256 Hash For Output Files')
 	# Calcualte the SHA256 hash of every output file
 	for filename in os.listdir(outPath):
-		if filename.endswith('.output'):
+		if filename.endswith('.txt'):
 			with open(outPath  + filename + '.sha256', 'a') as hashFile:
 				hashFile.write(str(hashlib.sha256(open(outPath + filename, 'rb').read()).hexdigest()))
 
-	print '{:.<50}'.format('Archiving The Directory')
-	# Creating gztar archive and sending it to the examinor system
-	shutil.make_archive('/tmp/liveAcquisitionData', 'gztar', path)
-	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa /tmp/liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':~/Desktop/'
 
-	print '{:.<50}'.format('Sending liveAcquisitionData.tar.gz via scp ')
+	print '{:.<70}'.format('Archiving The Directory')
+	# Creating gztar archive and sending it to the examinor system
+	shutil.make_archive(path + 'liveAcquisitionData', 'gztar', path)
+	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa ' + path + 'liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':~/Desktop/'
+
+	print '{:.<70}'.format('Sending liveAcquisitionData.tar.gz via scp ')
 	status = os.system(scpCommand)
 	if not status:
-		print '{:.<50}'.format('Transfer Successful. :-)')
+		print '{:.<70}'.format('Transfer Successful. :-)')
 	else:
-		print '{:.<50}'.format('Transfer Failed. :-(')
+		print '{:.<70}'.format('Transfer Failed. :-(')
 
-	print '{:.<50}'.format('Removing Temporary Files')	
+	print '{:.<70}'.format('Removing Temporary Files')	
 	# Cleaning folder content
 	shutil.rmtree(path)
 	
 
 
 if __name__ == '__main__':
-	print '\n{:*^50}\n'.format(' Linux Remote Live Acquisition ')
+	print '\n{:*^70}\n'.format(' Linux Remote Live Acquisition ')
 	CheckConnection(destDomain)
-	print '{:.<50}'.format('Waiting For Command File ')
+	print '{:.<70}'.format('Waiting For Command File ')
 	main()
-	print '\n{:*^50}\n'.format(' EOP ')
+	print '\n{:*^70}\n'.format(' EOP ')
