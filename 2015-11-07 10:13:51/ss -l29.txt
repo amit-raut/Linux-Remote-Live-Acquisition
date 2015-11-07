@@ -1,0 +1,26 @@
+Netid  State      Recv-Q Send-Q   Local Address:Port       Peer Address:Port   
+nl     UNCONN     0      0                 rtnl:kernel                 *       
+nl     UNCONN     0      0              tcpdiag:kernel                 *       
+nl     UNCONN     0      0                    7:kernel                 *       
+nl     UNCONN     0      0                    9:kernel                 *       
+nl     UNCONN     0      0                   10:kernel                 *       
+nl     UNCONN     0      0                   11:kernel                 *       
+nl     UNCONN     0      0                   15:-4117                  *       
+nl     UNCONN     0      0                   15:systemd-logind/906                *       
+nl     UNCONN     0      0                   15:407                    *       
+nl     UNCONN     0      0                   15:396                    *       
+nl     UNCONN     0      0                   15:-4116                  *       
+nl     UNCONN     0      0                   15:kernel                 *       
+nl     UNCONN     0      0                   16:1046                   *       
+nl     UNCONN     0      0                   16:kernel                 *       
+nl     UNCONN     0      0                   18:kernel                 *       
+p_raw  UNCONN     0      0                    *:eth0                   *       
+u_str  LISTEN     0      0      @/com/ubuntu/upstart 6667                  * 0      
+u_str  LISTEN     0      0      /var/run/dbus/system_bus_socket 8545                  * 0      
+u_str  LISTEN     0      0      /var/run/acpid.socket 9079                  * 0      
+u_dgr  LISTEN     0      0      /run/udev/control 7430                  * 0      
+tcp    UNCONN     0      0                    *:ipproto-68               *:*       
+tcp    UNCONN     0      0                    *:ipproto-50345               *:*       
+tcp    UNCONN     0      0                   :::ipproto-33957              :::*       
+tcp    LISTEN     0      128                  *:ssh                   *:*       
+tcp    LISTEN     0      128                 :::ssh                  :::*       

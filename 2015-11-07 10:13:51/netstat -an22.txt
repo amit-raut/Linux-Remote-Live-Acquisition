@@ -1,0 +1,40 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 172.31.29.203:22        146.115.83.230:60149    ESTABLISHED
+tcp6       0      0 :::22                   :::*                    LISTEN     
+udp        0      0 0.0.0.0:68              0.0.0.0:*                          
+udp        0      0 0.0.0.0:50345           0.0.0.0:*                          
+udp6       0      0 :::33957                :::*                               
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     7430     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     8545     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     6667     @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     9079     /var/run/acpid.socket
+unix  8      [ ]         DGRAM                    8683     /dev/log
+unix  2      [ ]         DGRAM                    14292    
+unix  3      [ ]         STREAM     CONNECTED     8581     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8572     
+unix  2      [ ]         DGRAM                    32729    
+unix  2      [ ]         DGRAM                    15595    
+unix  3      [ ]         STREAM     CONNECTED     8672     
+unix  3      [ ]         STREAM     CONNECTED     8533     
+unix  3      [ ]         STREAM     CONNECTED     7425     @/com/ubuntu/upstart
+unix  2      [ ]         DGRAM                    9076     
+unix  3      [ ]         STREAM     CONNECTED     8565     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     14436    
+unix  3      [ ]         STREAM     CONNECTED     7873     
+unix  2      [ ]         DGRAM                    13987    
+unix  3      [ ]         STREAM     CONNECTED     8673     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14430    
+unix  3      [ ]         STREAM     CONNECTED     7414     
+unix  3      [ ]         STREAM     CONNECTED     8573     
+unix  3      [ ]         STREAM     CONNECTED     7878     @/com/ubuntu/upstart
+unix  3      [ ]         DGRAM                    7465     
+unix  3      [ ]         STREAM     CONNECTED     8580     
+unix  3      [ ]         DGRAM                    7466     
+unix  2      [ ]         STREAM     CONNECTED     32727    
+unix  3      [ ]         STREAM     CONNECTED     14437    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14429    
+unix  2      [ ]         DGRAM                    15022    

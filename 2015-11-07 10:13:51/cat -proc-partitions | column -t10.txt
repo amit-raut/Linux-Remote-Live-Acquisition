@@ -1,0 +1,3 @@
+major  minor  #blocks  name
+202    0      8388608  xvda
+202    1      8377897  xvda1

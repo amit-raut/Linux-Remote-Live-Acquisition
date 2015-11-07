@@ -1,0 +1,1005 @@
+COMMAND    PID TID     USER   FD      TYPE             DEVICE SIZE/OFF       NODE NAME
+init         1            0  cwd       DIR              202,1     4096          2 /
+init         1            0  rtd       DIR              202,1     4096          2 /
+init         1            0  txt       REG              202,1   265848        335 /sbin/init
+init         1            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+init         1            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+init         1            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+init         1            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+init         1            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+init         1            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+init         1            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+init         1            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+init         1            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+init         1            0  mem       REG              202,1    43464     396059 /lib/x86_64-linux-gnu/libjson-c.so.2.0.0
+init         1            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+init         1            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+init         1            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+init         1            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+init         1            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+init         1            0    0u      CHR                1,3      0t0       5430 /dev/null
+init         1            0    1u      CHR                1,3      0t0       5430 /dev/null
+init         1            0    2u      CHR                1,3      0t0       5430 /dev/null
+init         1            0    3r     FIFO                0,8      0t0       6666 pipe
+init         1            0    4w     FIFO                0,8      0t0       6666 pipe
+init         1            0    5r     0000                0,9        0       5385 anon_inode
+init         1            0    6r     0000                0,9        0       5385 anon_inode
+init         1            0    7u     unix 0xffff88003d5f7380      0t0       6667 @/com/ubuntu/upstart
+init         1            0    8u     unix 0xffff88003c8d6200      0t0       8580 socket
+init         1            0   10u     unix 0xffff88003ce86580      0t0       7425 @/com/ubuntu/upstart
+init         1            0   12u     unix 0xffff88003c8d1500      0t0       7878 @/com/ubuntu/upstart
+init         1            0   13u     unix 0xffff88003d5f3800      0t0       8565 @/com/ubuntu/upstart
+init         1            0   14w      REG              202,1      837     271397 /var/log/upstart/systemd-logind.log
+init         1            0   18u      CHR                5,2      0t0       5916 /dev/ptmx
+kthreadd     2            0  cwd       DIR              202,1     4096          2 /
+kthreadd     2            0  rtd       DIR              202,1     4096          2 /
+kthreadd     2            0  txt   unknown                                        /proc/2/exe
+ksoftirqd    3            0  cwd       DIR              202,1     4096          2 /
+ksoftirqd    3            0  rtd       DIR              202,1     4096          2 /
+ksoftirqd    3            0  txt   unknown                                        /proc/3/exe
+kworker/0    4            0  cwd       DIR              202,1     4096          2 /
+kworker/0    4            0  rtd       DIR              202,1     4096          2 /
+kworker/0    4            0  txt   unknown                                        /proc/4/exe
+kworker/0    5            0  cwd       DIR              202,1     4096          2 /
+kworker/0    5            0  rtd       DIR              202,1     4096          2 /
+kworker/0    5            0  txt   unknown                                        /proc/5/exe
+kworker/u    6            0  cwd       DIR              202,1     4096          2 /
+kworker/u    6            0  rtd       DIR              202,1     4096          2 /
+kworker/u    6            0  txt   unknown                                        /proc/6/exe
+rcu_sched    7            0  cwd       DIR              202,1     4096          2 /
+rcu_sched    7            0  rtd       DIR              202,1     4096          2 /
+rcu_sched    7            0  txt   unknown                                        /proc/7/exe
+rcuos/0      8            0  cwd       DIR              202,1     4096          2 /
+rcuos/0      8            0  rtd       DIR              202,1     4096          2 /
+rcuos/0      8            0  txt   unknown                                        /proc/8/exe
+rcuos/1      9            0  cwd       DIR              202,1     4096          2 /
+rcuos/1      9            0  rtd       DIR              202,1     4096          2 /
+rcuos/1      9            0  txt   unknown                                        /proc/9/exe
+rcuos/2     10            0  cwd       DIR              202,1     4096          2 /
+rcuos/2     10            0  rtd       DIR              202,1     4096          2 /
+rcuos/2     10            0  txt   unknown                                        /proc/10/exe
+rcuos/3     11            0  cwd       DIR              202,1     4096          2 /
+rcuos/3     11            0  rtd       DIR              202,1     4096          2 /
+rcuos/3     11            0  txt   unknown                                        /proc/11/exe
+rcuos/4     12            0  cwd       DIR              202,1     4096          2 /
+rcuos/4     12            0  rtd       DIR              202,1     4096          2 /
+rcuos/4     12            0  txt   unknown                                        /proc/12/exe
+rcuos/5     13            0  cwd       DIR              202,1     4096          2 /
+rcuos/5     13            0  rtd       DIR              202,1     4096          2 /
+rcuos/5     13            0  txt   unknown                                        /proc/13/exe
+rcuos/6     14            0  cwd       DIR              202,1     4096          2 /
+rcuos/6     14            0  rtd       DIR              202,1     4096          2 /
+rcuos/6     14            0  txt   unknown                                        /proc/14/exe
+rcuos/7     15            0  cwd       DIR              202,1     4096          2 /
+rcuos/7     15            0  rtd       DIR              202,1     4096          2 /
+rcuos/7     15            0  txt   unknown                                        /proc/15/exe
+rcuos/8     16            0  cwd       DIR              202,1     4096          2 /
+rcuos/8     16            0  rtd       DIR              202,1     4096          2 /
+rcuos/8     16            0  txt   unknown                                        /proc/16/exe
+rcuos/9     17            0  cwd       DIR              202,1     4096          2 /
+rcuos/9     17            0  rtd       DIR              202,1     4096          2 /
+rcuos/9     17            0  txt   unknown                                        /proc/17/exe
+rcuos/10    18            0  cwd       DIR              202,1     4096          2 /
+rcuos/10    18            0  rtd       DIR              202,1     4096          2 /
+rcuos/10    18            0  txt   unknown                                        /proc/18/exe
+rcuos/11    19            0  cwd       DIR              202,1     4096          2 /
+rcuos/11    19            0  rtd       DIR              202,1     4096          2 /
+rcuos/11    19            0  txt   unknown                                        /proc/19/exe
+rcuos/12    20            0  cwd       DIR              202,1     4096          2 /
+rcuos/12    20            0  rtd       DIR              202,1     4096          2 /
+rcuos/12    20            0  txt   unknown                                        /proc/20/exe
+rcuos/13    21            0  cwd       DIR              202,1     4096          2 /
+rcuos/13    21            0  rtd       DIR              202,1     4096          2 /
+rcuos/13    21            0  txt   unknown                                        /proc/21/exe
+rcuos/14    22            0  cwd       DIR              202,1     4096          2 /
+rcuos/14    22            0  rtd       DIR              202,1     4096          2 /
+rcuos/14    22            0  txt   unknown                                        /proc/22/exe
+rcu_bh      23            0  cwd       DIR              202,1     4096          2 /
+rcu_bh      23            0  rtd       DIR              202,1     4096          2 /
+rcu_bh      23            0  txt   unknown                                        /proc/23/exe
+rcuob/0     24            0  cwd       DIR              202,1     4096          2 /
+rcuob/0     24            0  rtd       DIR              202,1     4096          2 /
+rcuob/0     24            0  txt   unknown                                        /proc/24/exe
+rcuob/1     25            0  cwd       DIR              202,1     4096          2 /
+rcuob/1     25            0  rtd       DIR              202,1     4096          2 /
+rcuob/1     25            0  txt   unknown                                        /proc/25/exe
+rcuob/2     26            0  cwd       DIR              202,1     4096          2 /
+rcuob/2     26            0  rtd       DIR              202,1     4096          2 /
+rcuob/2     26            0  txt   unknown                                        /proc/26/exe
+rcuob/3     27            0  cwd       DIR              202,1     4096          2 /
+rcuob/3     27            0  rtd       DIR              202,1     4096          2 /
+rcuob/3     27            0  txt   unknown                                        /proc/27/exe
+rcuob/4     28            0  cwd       DIR              202,1     4096          2 /
+rcuob/4     28            0  rtd       DIR              202,1     4096          2 /
+rcuob/4     28            0  txt   unknown                                        /proc/28/exe
+rcuob/5     29            0  cwd       DIR              202,1     4096          2 /
+rcuob/5     29            0  rtd       DIR              202,1     4096          2 /
+rcuob/5     29            0  txt   unknown                                        /proc/29/exe
+rcuob/6     30            0  cwd       DIR              202,1     4096          2 /
+rcuob/6     30            0  rtd       DIR              202,1     4096          2 /
+rcuob/6     30            0  txt   unknown                                        /proc/30/exe
+rcuob/7     31            0  cwd       DIR              202,1     4096          2 /
+rcuob/7     31            0  rtd       DIR              202,1     4096          2 /
+rcuob/7     31            0  txt   unknown                                        /proc/31/exe
+rcuob/8     32            0  cwd       DIR              202,1     4096          2 /
+rcuob/8     32            0  rtd       DIR              202,1     4096          2 /
+rcuob/8     32            0  txt   unknown                                        /proc/32/exe
+rcuob/9     33            0  cwd       DIR              202,1     4096          2 /
+rcuob/9     33            0  rtd       DIR              202,1     4096          2 /
+rcuob/9     33            0  txt   unknown                                        /proc/33/exe
+rcuob/10    34            0  cwd       DIR              202,1     4096          2 /
+rcuob/10    34            0  rtd       DIR              202,1     4096          2 /
+rcuob/10    34            0  txt   unknown                                        /proc/34/exe
+rcuob/11    35            0  cwd       DIR              202,1     4096          2 /
+rcuob/11    35            0  rtd       DIR              202,1     4096          2 /
+rcuob/11    35            0  txt   unknown                                        /proc/35/exe
+rcuob/12    36            0  cwd       DIR              202,1     4096          2 /
+rcuob/12    36            0  rtd       DIR              202,1     4096          2 /
+rcuob/12    36            0  txt   unknown                                        /proc/36/exe
+rcuob/13    37            0  cwd       DIR              202,1     4096          2 /
+rcuob/13    37            0  rtd       DIR              202,1     4096          2 /
+rcuob/13    37            0  txt   unknown                                        /proc/37/exe
+rcuob/14    38            0  cwd       DIR              202,1     4096          2 /
+rcuob/14    38            0  rtd       DIR              202,1     4096          2 /
+rcuob/14    38            0  txt   unknown                                        /proc/38/exe
+migration   39            0  cwd       DIR              202,1     4096          2 /
+migration   39            0  rtd       DIR              202,1     4096          2 /
+migration   39            0  txt   unknown                                        /proc/39/exe
+watchdog/   40            0  cwd       DIR              202,1     4096          2 /
+watchdog/   40            0  rtd       DIR              202,1     4096          2 /
+watchdog/   40            0  txt   unknown                                        /proc/40/exe
+khelper     41            0  cwd       DIR              202,1     4096          2 /
+khelper     41            0  rtd       DIR              202,1     4096          2 /
+khelper     41            0  txt   unknown                                        /proc/41/exe
+kdevtmpfs   42            0  cwd       DIR                0,5     3820          3 /
+kdevtmpfs   42            0  rtd       DIR                0,5     3820          3 /
+kdevtmpfs   42            0  txt   unknown                                        /proc/42/exe
+netns       43            0  cwd       DIR              202,1     4096          2 /
+netns       43            0  rtd       DIR              202,1     4096          2 /
+netns       43            0  txt   unknown                                        /proc/43/exe
+xenwatch    44            0  cwd       DIR              202,1     4096          2 /
+xenwatch    44            0  rtd       DIR              202,1     4096          2 /
+xenwatch    44            0  txt   unknown                                        /proc/44/exe
+xenbus      45            0  cwd       DIR              202,1     4096          2 /
+xenbus      45            0  rtd       DIR              202,1     4096          2 /
+xenbus      45            0  txt   unknown                                        /proc/45/exe
+kworker/0   46            0  cwd       DIR              202,1     4096          2 /
+kworker/0   46            0  rtd       DIR              202,1     4096          2 /
+kworker/0   46            0  txt   unknown                                        /proc/46/exe
+writeback   47            0  cwd       DIR              202,1     4096          2 /
+writeback   47            0  rtd       DIR              202,1     4096          2 /
+writeback   47            0  txt   unknown                                        /proc/47/exe
+kintegrit   48            0  cwd       DIR              202,1     4096          2 /
+kintegrit   48            0  rtd       DIR              202,1     4096          2 /
+kintegrit   48            0  txt   unknown                                        /proc/48/exe
+bioset      49            0  cwd       DIR              202,1     4096          2 /
+bioset      49            0  rtd       DIR              202,1     4096          2 /
+bioset      49            0  txt   unknown                                        /proc/49/exe
+kworker/u   50            0  cwd       DIR              202,1     4096          2 /
+kworker/u   50            0  rtd       DIR              202,1     4096          2 /
+kworker/u   50            0  txt   unknown                                        /proc/50/exe
+kblockd     51            0  cwd       DIR              202,1     4096          2 /
+kblockd     51            0  rtd       DIR              202,1     4096          2 /
+kblockd     51            0  txt   unknown                                        /proc/51/exe
+ata_sff     52            0  cwd       DIR              202,1     4096          2 /
+ata_sff     52            0  rtd       DIR              202,1     4096          2 /
+ata_sff     52            0  txt   unknown                                        /proc/52/exe
+khubd       53            0  cwd       DIR              202,1     4096          2 /
+khubd       53            0  rtd       DIR              202,1     4096          2 /
+khubd       53            0  txt   unknown                                        /proc/53/exe
+md          54            0  cwd       DIR              202,1     4096          2 /
+md          54            0  rtd       DIR              202,1     4096          2 /
+md          54            0  txt   unknown                                        /proc/54/exe
+devfreq_w   55            0  cwd       DIR              202,1     4096          2 /
+devfreq_w   55            0  rtd       DIR              202,1     4096          2 /
+devfreq_w   55            0  txt   unknown                                        /proc/55/exe
+khungtask   57            0  cwd       DIR              202,1     4096          2 /
+khungtask   57            0  rtd       DIR              202,1     4096          2 /
+khungtask   57            0  txt   unknown                                        /proc/57/exe
+kswapd0     58            0  cwd       DIR              202,1     4096          2 /
+kswapd0     58            0  rtd       DIR              202,1     4096          2 /
+kswapd0     58            0  txt   unknown                                        /proc/58/exe
+ksmd        59            0  cwd       DIR              202,1     4096          2 /
+ksmd        59            0  rtd       DIR              202,1     4096          2 /
+ksmd        59            0  txt   unknown                                        /proc/59/exe
+khugepage   60            0  cwd       DIR              202,1     4096          2 /
+khugepage   60            0  rtd       DIR              202,1     4096          2 /
+khugepage   60            0  txt   unknown                                        /proc/60/exe
+fsnotify_   61            0  cwd       DIR              202,1     4096          2 /
+fsnotify_   61            0  rtd       DIR              202,1     4096          2 /
+fsnotify_   61            0  txt   unknown                                        /proc/61/exe
+ecryptfs-   62            0  cwd       DIR              202,1     4096          2 /
+ecryptfs-   62            0  rtd       DIR              202,1     4096          2 /
+ecryptfs-   62            0  txt   unknown                                        /proc/62/exe
+crypto      63            0  cwd       DIR              202,1     4096          2 /
+crypto      63            0  rtd       DIR              202,1     4096          2 /
+crypto      63            0  txt   unknown                                        /proc/63/exe
+kthrotld    75            0  cwd       DIR              202,1     4096          2 /
+kthrotld    75            0  rtd       DIR              202,1     4096          2 /
+kthrotld    75            0  txt   unknown                                        /proc/75/exe
+kworker/u   76            0  cwd       DIR              202,1     4096          2 /
+kworker/u   76            0  rtd       DIR              202,1     4096          2 /
+kworker/u   76            0  txt   unknown                                        /proc/76/exe
+scsi_eh_0   77            0  cwd       DIR              202,1     4096          2 /
+scsi_eh_0   77            0  rtd       DIR              202,1     4096          2 /
+scsi_eh_0   77            0  txt   unknown                                        /proc/77/exe
+scsi_eh_1   78            0  cwd       DIR              202,1     4096          2 /
+scsi_eh_1   78            0  rtd       DIR              202,1     4096          2 /
+scsi_eh_1   78            0  txt   unknown                                        /proc/78/exe
+deferwq     99            0  cwd       DIR              202,1     4096          2 /
+deferwq     99            0  rtd       DIR              202,1     4096          2 /
+deferwq     99            0  txt   unknown                                        /proc/99/exe
+charger_m  100            0  cwd       DIR              202,1     4096          2 /
+charger_m  100            0  rtd       DIR              202,1     4096          2 /
+charger_m  100            0  txt   unknown                                        /proc/100/exe
+kpsmoused  141            0  cwd       DIR              202,1     4096          2 /
+kpsmoused  141            0  rtd       DIR              202,1     4096          2 /
+kpsmoused  141            0  txt   unknown                                        /proc/141/exe
+jbd2/xvda  201            0  cwd       DIR              202,1     4096          2 /
+jbd2/xvda  201            0  rtd       DIR              202,1     4096          2 /
+jbd2/xvda  201            0  txt   unknown                                        /proc/201/exe
+ext4-rsv-  202            0  cwd       DIR              202,1     4096          2 /
+ext4-rsv-  202            0  rtd       DIR              202,1     4096          2 /
+ext4-rsv-  202            0  txt   unknown                                        /proc/202/exe
+upstart-u  406            0  cwd       DIR              202,1     4096          2 /
+upstart-u  406            0  rtd       DIR              202,1     4096          2 /
+upstart-u  406            0  txt       REG              202,1    76040        410 /sbin/upstart-udev-bridge
+upstart-u  406            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+upstart-u  406            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+upstart-u  406            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+upstart-u  406            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+upstart-u  406            0  mem       REG              202,1    67600     396106 /lib/x86_64-linux-gnu/libudev.so.1.3.5
+upstart-u  406            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+upstart-u  406            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+upstart-u  406            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+upstart-u  406            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+upstart-u  406            0    0u      CHR                1,3      0t0       5430 /dev/null
+upstart-u  406            0    1u      CHR                1,3      0t0       5430 /dev/null
+upstart-u  406            0    2u      CHR                1,3      0t0       5430 /dev/null
+upstart-u  406            0    3u     unix 0xffff88003ce84600      0t0       7414 socket
+upstart-u  406            0    4r     FIFO                0,8      0t0       7415 pipe
+upstart-u  406            0    5w     FIFO                0,8      0t0       7415 pipe
+upstart-u  406            0    6u  netlink                         0t0       7416 KOBJECT_UEVENT
+systemd-u  411            0  cwd       DIR              202,1     4096          2 /
+systemd-u  411            0  rtd       DIR              202,1     4096          2 /
+systemd-u  411            0  txt       REG              202,1   239896     395914 /lib/systemd/systemd-udevd
+systemd-u  411            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+systemd-u  411            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+systemd-u  411            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+systemd-u  411            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+systemd-u  411            0  mem       REG              202,1  5661386     395978 /lib/udev/hwdb.bin
+systemd-u  411            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+systemd-u  411            0  mem       REG              202,1    18624     396035 /lib/x86_64-linux-gnu/libattr.so.1.1.0
+systemd-u  411            0  mem       REG              202,1    18936     396111 /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+systemd-u  411            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+systemd-u  411            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+systemd-u  411            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+systemd-u  411            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+systemd-u  411            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+systemd-u  411            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+systemd-u  411            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+systemd-u  411            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+systemd-u  411            0  mem       REG              202,1    31168     396033 /lib/x86_64-linux-gnu/libacl.so.1.1.0
+systemd-u  411            0  mem       REG              202,1    88704     396061 /lib/x86_64-linux-gnu/libkmod.so.2.2.5
+systemd-u  411            0  mem       REG              202,1   155384     396037 /lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-u  411            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+systemd-u  411            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+systemd-u  411            0  mem       REG              202,1   137540     395112 /lib/modules/3.13.0-48-generic/modules.symbols.bin
+systemd-u  411            0  mem       REG              202,1    86359     395103 /lib/modules/3.13.0-48-generic/modules.alias.bin
+systemd-u  411            0  mem       REG              202,1    77848     395107 /lib/modules/3.13.0-48-generic/modules.dep.bin
+systemd-u  411            0  mem       REG              202,1     9241     395105 /lib/modules/3.13.0-48-generic/modules.builtin.bin
+systemd-u  411            0    0u      CHR                1,3      0t0       5430 /dev/null
+systemd-u  411            0    1u      CHR                1,3      0t0       5430 /dev/null
+systemd-u  411            0    2u      CHR                1,3      0t0       5430 /dev/null
+systemd-u  411            0    3u     unix 0xffff88003ce83b80      0t0       7430 /run/udev/control
+systemd-u  411            0    4u  netlink                         0t0       7431 KOBJECT_UEVENT
+systemd-u  411            0    5u      REG               0,16        8      19372 /run/udev/queue.bin
+systemd-u  411            0    6r     0000                0,9        0       5385 anon_inode
+systemd-u  411            0    7u     0000                0,9        0       5385 anon_inode
+systemd-u  411            0    8u     unix 0xffff88003ce86900      0t0       7465 socket
+systemd-u  411            0    9u     unix 0xffff88003ce83100      0t0       7466 socket
+systemd-u  411            0   10r      REG              202,1  5661386     395978 /lib/udev/hwdb.bin
+systemd-u  411            0   11u     0000                0,9        0       5385 anon_inode
+upstart-s  505            0  cwd       DIR              202,1     4096          2 /
+upstart-s  505            0  rtd       DIR              202,1     4096          2 /
+upstart-s  505            0  txt       REG              202,1   133352        409 /sbin/upstart-socket-bridge
+upstart-s  505            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+upstart-s  505            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+upstart-s  505            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+upstart-s  505            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+upstart-s  505            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+upstart-s  505            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+upstart-s  505            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+upstart-s  505            0    0u      CHR                1,3      0t0       5430 /dev/null
+upstart-s  505            0    1u      CHR                1,3      0t0       5430 /dev/null
+upstart-s  505            0    2u      CHR                1,3      0t0       5430 /dev/null
+upstart-s  505            0    3u     0000                0,9        0       5385 anon_inode
+upstart-s  505            0    4u     unix 0xffff88003c8d4980      0t0       7873 socket
+upstart-s  505            0    5r     FIFO                0,8      0t0       7874 pipe
+upstart-s  505            0    6w     FIFO                0,8      0t0       7874 pipe
+dhclient   570            0  cwd       DIR              202,1     4096          2 /
+dhclient   570            0  rtd       DIR              202,1     4096          2 /
+dhclient   570            0  txt       REG              202,1  1668160        306 /sbin/dhclient
+dhclient   570            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+dhclient   570            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+dhclient   570            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+dhclient   570            0    0u      CHR                1,3      0t0       5430 /dev/null
+dhclient   570            0    1u      CHR                1,3      0t0       5430 /dev/null
+dhclient   570            0    2u      CHR                1,3      0t0       5430 /dev/null
+dhclient   570            0    3w      REG              202,1     3180     149755 /var/lib/dhcp/dhclient.eth0.leases
+dhclient   570            0    4u     pack               7946      0t0        ALL type=SOCK_RAW
+dhclient   570            0    5u     IPv4               7949      0t0        UDP *:68 
+dhclient   570            0    6u     unix 0xffff88003ce82a00      0t0      15022 socket
+dhclient   570            0   20u     IPv4               7922      0t0        UDP *:50345 
+dhclient   570            0   21u     IPv6               7923      0t0        UDP *:33957 
+dbus-daem  861          102  cwd       DIR              202,1     4096          2 /
+dbus-daem  861          102  rtd       DIR              202,1     4096          2 /
+dbus-daem  861          102  txt       REG              202,1   434032     262283 /bin/dbus-daemon
+dbus-daem  861          102  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+dbus-daem  861          102  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+dbus-daem  861          102  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+dbus-daem  861          102  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+dbus-daem  861          102  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+dbus-daem  861          102  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+dbus-daem  861          102  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+dbus-daem  861          102  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+dbus-daem  861          102  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+dbus-daem  861          102  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+dbus-daem  861          102  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+dbus-daem  861          102  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+dbus-daem  861          102  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+dbus-daem  861          102  mem       REG              202,1    47984       8046 /usr/lib/x86_64-linux-gnu/libapparmor.so.1.1.0
+dbus-daem  861          102  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+dbus-daem  861          102  mem       REG              202,1   170064     396051 /lib/x86_64-linux-gnu/libexpat.so.1.6.0
+dbus-daem  861          102  mem       REG              202,1    55384     396103 /lib/x86_64-linux-gnu/libsystemd-login.so.0.7.1
+dbus-daem  861          102  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+dbus-daem  861          102    0u      CHR                1,3      0t0       5430 /dev/null
+dbus-daem  861          102    1u      CHR                1,3      0t0       5430 /dev/null
+dbus-daem  861          102    2u      CHR                1,3      0t0       5430 /dev/null
+dbus-daem  861          102    3u     0000                0,9        0       5385 anon_inode
+dbus-daem  861          102    4u     unix 0xffff88003d5f6580      0t0       8545 /var/run/dbus/system_bus_socket
+dbus-daem  861          102    5r     0000                0,9        0       5385 anon_inode
+dbus-daem  861          102    6u     unix 0xffff88003d5f7000      0t0       8572 socket
+dbus-daem  861          102    7u     unix 0xffff88003d5f4280      0t0       8573 socket
+dbus-daem  861          102    8u     unix 0xffff88003c8d3480      0t0       8581 /var/run/dbus/system_bus_socket
+dbus-daem  861          102    9u     unix 0xffff88003c8d3100      0t0       8673 /var/run/dbus/system_bus_socket
+dbus-daem  861          102   10u     unix 0xffff88003ce83800      0t0      14437 /var/run/dbus/system_bus_socket
+dbus-daem  861          102   12u     unix 0xffff88003ce82d80      0t0      13987 socket
+systemd-l  906            0  cwd       DIR              202,1     4096          2 /
+systemd-l  906            0  rtd       DIR              202,1     4096          2 /
+systemd-l  906            0  txt       REG              202,1   252056     395911 /lib/systemd/systemd-logind
+systemd-l  906            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+systemd-l  906            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+systemd-l  906            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+systemd-l  906            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+systemd-l  906            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+systemd-l  906            0  mem       REG              202,1    18624     396035 /lib/x86_64-linux-gnu/libattr.so.1.1.0
+systemd-l  906            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+systemd-l  906            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+systemd-l  906            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+systemd-l  906            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+systemd-l  906            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+systemd-l  906            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+systemd-l  906            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+systemd-l  906            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+systemd-l  906            0  mem       REG              202,1    31168     396033 /lib/x86_64-linux-gnu/libacl.so.1.1.0
+systemd-l  906            0  mem       REG              202,1    67600     396106 /lib/x86_64-linux-gnu/libudev.so.1.3.5
+systemd-l  906            0  mem       REG              202,1    14256     396102 /lib/x86_64-linux-gnu/libsystemd-daemon.so.0.0.10
+systemd-l  906            0  mem       REG              202,1    18952     396041 /lib/x86_64-linux-gnu/libcap.so.2.24
+systemd-l  906            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+systemd-l  906            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+systemd-l  906            0    0u      CHR                1,3      0t0       5430 /dev/null
+systemd-l  906            0    1u      CHR              136,3      0t0          6 /dev/pts/3
+systemd-l  906            0    2u      CHR              136,3      0t0          6 /dev/pts/3
+systemd-l  906            0    3u     0000                0,9        0       5385 anon_inode
+systemd-l  906            0    4r      REG               0,15     4096       2907 /sys/devices/virtual/tty/tty0/active
+systemd-l  906            0    5u  netlink                         0t0       8669 KOBJECT_UEVENT
+systemd-l  906            0    6u  netlink                         0t0       8670 KOBJECT_UEVENT
+systemd-l  906            0    7u  netlink                         0t0       8671 KOBJECT_UEVENT
+systemd-l  906            0    8u     unix 0xffff88003c8d1880      0t0       8672 socket
+systemd-l  906            0    9u     0000                0,9        0       5385 anon_inode
+systemd-l  906            0   10u     unix 0xffff88003c8d1880      0t0       8672 socket
+systemd-l  906            0   11u      CHR              13,64      0t0       6036 /dev/input/event0
+systemd-l  906            0   12u      CHR              13,65      0t0       6037 /dev/input/event1
+systemd-l  906            0   13u      CHR                4,6      0t0       5449 /dev/tty6
+systemd-l  906            0   14r     FIFO               0,16      0t0      14313 /run/systemd/sessions/3.ref
+rsyslogd   915          101  cwd       DIR              202,1     4096          2 /
+rsyslogd   915          101  rtd       DIR              202,1     4096          2 /
+rsyslogd   915          101  txt       REG              202,1   521824       8697 /usr/sbin/rsyslogd
+rsyslogd   915          101  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+rsyslogd   915          101  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+rsyslogd   915          101  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+rsyslogd   915          101  mem       REG              202,1    19776       7928 /usr/lib/rsyslog/imklog.so
+rsyslogd   915          101  mem       REG              202,1   404200       7935 /usr/lib/rsyslog/imuxsock.so
+rsyslogd   915          101  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+rsyslogd   915          101  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+rsyslogd   915          101  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+rsyslogd   915          101  mem       REG              202,1    23448       7936 /usr/lib/rsyslog/lmnet.so
+rsyslogd   915          101  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+rsyslogd   915          101  mem       REG              202,1    18936     396111 /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+rsyslogd   915          101  mem       REG              202,1    43464     396059 /lib/x86_64-linux-gnu/libjson-c.so.2.0.0
+rsyslogd   915          101  mem       REG              202,1    14360       8064 /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0
+rsyslogd   915          101  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+rsyslogd   915          101  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+rsyslogd   915          101  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+rsyslogd   915          101  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+rsyslogd   915          101  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+rsyslogd   915          101    0u     unix 0xffff88003c8d6900      0t0       8683 /dev/log
+rsyslogd   915          101    1w      REG              202,1    57096     149785 /var/log/syslog
+rsyslogd   915          101    2w      REG              202,1    48296     149786 /var/log/kern.log
+rsyslogd   915          101    3r      REG                0,3        0 4026532078 /proc/kmsg
+rsyslogd   915          101    4w      REG              202,1   152616     149756 /var/log/cloud-init.log
+rsyslogd   915          101    5w      REG              202,1   279245     149790 /var/log/auth.log
+in:imuxso  915 916      101  cwd       DIR              202,1     4096          2 /
+in:imuxso  915 916      101  rtd       DIR              202,1     4096          2 /
+in:imuxso  915 916      101  txt       REG              202,1   521824       8697 /usr/sbin/rsyslogd
+in:imuxso  915 916      101  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    19776       7928 /usr/lib/rsyslog/imklog.so
+in:imuxso  915 916      101  mem       REG              202,1   404200       7935 /usr/lib/rsyslog/imuxsock.so
+in:imuxso  915 916      101  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    23448       7936 /usr/lib/rsyslog/lmnet.so
+in:imuxso  915 916      101  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    18936     396111 /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+in:imuxso  915 916      101  mem       REG              202,1    43464     396059 /lib/x86_64-linux-gnu/libjson-c.so.2.0.0
+in:imuxso  915 916      101  mem       REG              202,1    14360       8064 /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0
+in:imuxso  915 916      101  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+in:imuxso  915 916      101  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+in:imuxso  915 916      101  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+in:imuxso  915 916      101    0u     unix 0xffff88003c8d6900      0t0       8683 /dev/log
+in:imuxso  915 916      101    1w      REG              202,1    57096     149785 /var/log/syslog
+in:imuxso  915 916      101    2w      REG              202,1    48296     149786 /var/log/kern.log
+in:imuxso  915 916      101    3r      REG                0,3        0 4026532078 /proc/kmsg
+in:imuxso  915 916      101    4w      REG              202,1   152616     149756 /var/log/cloud-init.log
+in:imuxso  915 916      101    5w      REG              202,1   279245     149790 /var/log/auth.log
+in:imklog  915 917      101  cwd       DIR              202,1     4096          2 /
+in:imklog  915 917      101  rtd       DIR              202,1     4096          2 /
+in:imklog  915 917      101  txt       REG              202,1   521824       8697 /usr/sbin/rsyslogd
+in:imklog  915 917      101  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    19776       7928 /usr/lib/rsyslog/imklog.so
+in:imklog  915 917      101  mem       REG              202,1   404200       7935 /usr/lib/rsyslog/imuxsock.so
+in:imklog  915 917      101  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    23448       7936 /usr/lib/rsyslog/lmnet.so
+in:imklog  915 917      101  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    18936     396111 /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+in:imklog  915 917      101  mem       REG              202,1    43464     396059 /lib/x86_64-linux-gnu/libjson-c.so.2.0.0
+in:imklog  915 917      101  mem       REG              202,1    14360       8064 /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0
+in:imklog  915 917      101  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+in:imklog  915 917      101  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+in:imklog  915 917      101  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+in:imklog  915 917      101  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+in:imklog  915 917      101  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+in:imklog  915 917      101    0u     unix 0xffff88003c8d6900      0t0       8683 /dev/log
+in:imklog  915 917      101    1w      REG              202,1    57096     149785 /var/log/syslog
+in:imklog  915 917      101    2w      REG              202,1    48296     149786 /var/log/kern.log
+in:imklog  915 917      101    3r      REG                0,3        0 4026532078 /proc/kmsg
+in:imklog  915 917      101    4w      REG              202,1   152616     149756 /var/log/cloud-init.log
+in:imklog  915 917      101    5w      REG              202,1   279245     149790 /var/log/auth.log
+rs:main    915 918      101  cwd       DIR              202,1     4096          2 /
+rs:main    915 918      101  rtd       DIR              202,1     4096          2 /
+rs:main    915 918      101  txt       REG              202,1   521824       8697 /usr/sbin/rsyslogd
+rs:main    915 918      101  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+rs:main    915 918      101  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+rs:main    915 918      101  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+rs:main    915 918      101  mem       REG              202,1    19776       7928 /usr/lib/rsyslog/imklog.so
+rs:main    915 918      101  mem       REG              202,1   404200       7935 /usr/lib/rsyslog/imuxsock.so
+rs:main    915 918      101  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+rs:main    915 918      101  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+rs:main    915 918      101  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+rs:main    915 918      101  mem       REG              202,1    23448       7936 /usr/lib/rsyslog/lmnet.so
+rs:main    915 918      101  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+rs:main    915 918      101  mem       REG              202,1    18936     396111 /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+rs:main    915 918      101  mem       REG              202,1    43464     396059 /lib/x86_64-linux-gnu/libjson-c.so.2.0.0
+rs:main    915 918      101  mem       REG              202,1    14360       8064 /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0
+rs:main    915 918      101  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+rs:main    915 918      101  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+rs:main    915 918      101  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+rs:main    915 918      101  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+rs:main    915 918      101  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+rs:main    915 918      101    0u     unix 0xffff88003c8d6900      0t0       8683 /dev/log
+rs:main    915 918      101    1w      REG              202,1    57096     149785 /var/log/syslog
+rs:main    915 918      101    2w      REG              202,1    48296     149786 /var/log/kern.log
+rs:main    915 918      101    3r      REG                0,3        0 4026532078 /proc/kmsg
+rs:main    915 918      101    4w      REG              202,1   152616     149756 /var/log/cloud-init.log
+rs:main    915 918      101    5w      REG              202,1   279245     149790 /var/log/auth.log
+upstart-f  929            0  cwd       DIR              202,1     4096          2 /
+upstart-f  929            0  rtd       DIR              202,1     4096          2 /
+upstart-f  929            0  txt       REG              202,1   141592        407 /sbin/upstart-file-bridge
+upstart-f  929            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+upstart-f  929            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+upstart-f  929            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+upstart-f  929            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+upstart-f  929            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+upstart-f  929            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+upstart-f  929            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+upstart-f  929            0    0u      CHR                1,3      0t0       5430 /dev/null
+upstart-f  929            0    1u      CHR                1,3      0t0       5430 /dev/null
+upstart-f  929            0    2u      CHR                1,3      0t0       5430 /dev/null
+upstart-f  929            0    3u     unix 0xffff88003d5f4d00      0t0       8533 socket
+upstart-f  929            0    4r     FIFO                0,8      0t0       8534 pipe
+upstart-f  929            0    5w     FIFO                0,8      0t0       8534 pipe
+getty     1033            0  cwd       DIR              202,1     4096          2 /
+getty     1033            0  rtd       DIR              202,1     4096          2 /
+getty     1033            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1033            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1033            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1033            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1033            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1033            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1033            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1033            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1033            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1033            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1033            0    0u      CHR                4,4      0t0       5447 /dev/tty4
+getty     1033            0    1u      CHR                4,4      0t0       5447 /dev/tty4
+getty     1033            0    2u      CHR                4,4      0t0       5447 /dev/tty4
+getty     1036            0  cwd       DIR              202,1     4096          2 /
+getty     1036            0  rtd       DIR              202,1     4096          2 /
+getty     1036            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1036            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1036            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1036            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1036            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1036            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1036            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1036            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1036            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1036            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1036            0    0u      CHR                4,5      0t0       5448 /dev/tty5
+getty     1036            0    1u      CHR                4,5      0t0       5448 /dev/tty5
+getty     1036            0    2u      CHR                4,5      0t0       5448 /dev/tty5
+getty     1047            0  cwd       DIR              202,1     4096          2 /
+getty     1047            0  rtd       DIR              202,1     4096          2 /
+getty     1047            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1047            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1047            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1047            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1047            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1047            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1047            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1047            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1047            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1047            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1047            0    0u      CHR                4,2      0t0       5445 /dev/tty2
+getty     1047            0    1u      CHR                4,2      0t0       5445 /dev/tty2
+getty     1047            0    2u      CHR                4,2      0t0       5445 /dev/tty2
+getty     1048            0  cwd       DIR              202,1     4096          2 /
+getty     1048            0  rtd       DIR              202,1     4096          2 /
+getty     1048            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1048            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1048            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1048            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1048            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1048            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1048            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1048            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1048            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1048            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1048            0    0u      CHR                4,3      0t0       5446 /dev/tty3
+getty     1048            0    1u      CHR                4,3      0t0       5446 /dev/tty3
+getty     1048            0    2u      CHR                4,3      0t0       5446 /dev/tty3
+getty     1050            0  cwd       DIR              202,1     4096          2 /
+getty     1050            0  rtd       DIR              202,1     4096          2 /
+getty     1050            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1050            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1050            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1050            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1050            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1050            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1050            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1050            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1050            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1050            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1050            0    0u      CHR                4,6      0t0       5449 /dev/tty6
+getty     1050            0    1u      CHR                4,6      0t0       5449 /dev/tty6
+getty     1050            0    2u      CHR                4,6      0t0       5449 /dev/tty6
+acpid     1090            0  cwd       DIR              202,1     4096          2 /
+acpid     1090            0  rtd       DIR              202,1     4096          2 /
+acpid     1090            0  txt       REG              202,1    48056       8624 /usr/sbin/acpid
+acpid     1090            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+acpid     1090            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+acpid     1090            0    0u      CHR                1,3      0t0       5430 /dev/null
+acpid     1090            0    1u      CHR                1,3      0t0       5430 /dev/null
+acpid     1090            0    2u      CHR                1,3      0t0       5430 /dev/null
+acpid     1090            0    3u     unix 0xffff88003ce81880      0t0       9076 socket
+acpid     1090            0    4r      CHR              13,64      0t0       6036 /dev/input/event0
+acpid     1090            0    5r      CHR              13,65      0t0       6037 /dev/input/event1
+acpid     1090            0    6r      CHR              13,66      0t0       6040 /dev/input/event2
+acpid     1090            0    7r     0000                0,9        0       5385 anon_inode
+acpid     1090            0    8u  netlink                         0t0       9078 GENERIC
+acpid     1090            0    9u     unix 0xffff88003ce81c00      0t0       9079 /var/run/acpid.socket
+cron      1091            0  cwd       DIR              202,1     4096     269271 /var/spool/cron
+cron      1091            0  rtd       DIR              202,1     4096          2 /
+cron      1091            0  txt       REG              202,1    44376       8636 /usr/sbin/cron
+cron      1091            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+cron      1091            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+cron      1091            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+cron      1091            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+cron      1091            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+cron      1091            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+cron      1091            0  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+cron      1091            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+cron      1091            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+cron      1091            0  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+cron      1091            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+cron      1091            0    0r      CHR                1,3      0t0       5430 /dev/null
+cron      1091            0    1w      CHR                1,3      0t0       5430 /dev/null
+cron      1091            0    2w      CHR                1,3      0t0       5430 /dev/null
+cron      1091            0    3u      REG               0,16        5       9081 /run/crond.pid
+atd       1092            1  cwd       DIR              202,1     4096     269274 /var/spool/cron/atjobs
+atd       1092            1  rtd       DIR              202,1     4096          2 /
+atd       1092            1  txt       REG              202,1    22544       8629 /usr/sbin/atd
+atd       1092            1  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+atd       1092            1  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+atd       1092            1  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+atd       1092            1  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+atd       1092            1  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+atd       1092            1  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+atd       1092            1  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+atd       1092            1  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+atd       1092            1  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+atd       1092            1    0u      CHR                1,3      0t0       5430 /dev/null
+atd       1092            1    1u      CHR                1,3      0t0       5430 /dev/null
+atd       1092            1    2u      CHR                1,3      0t0       5430 /dev/null
+atd       1092            1    3uW     REG               0,16        5       9099 /run/atd.pid
+getty     1165            0  cwd       DIR              202,1     4096          2 /
+getty     1165            0  rtd       DIR              202,1     4096          2 /
+getty     1165            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1165            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1165            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1165            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1165            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1165            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1165            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1165            0  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+getty     1165            0  mem       REG              202,1   151984       1581 /usr/lib/locale/C.UTF-8/LC_CTYPE
+getty     1165            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+getty     1165            0    0u      CHR                4,1      0t0       5444 /dev/tty1
+getty     1165            0    1u      CHR                4,1      0t0       5444 /dev/tty1
+getty     1165            0    2u      CHR                4,1      0t0       5444 /dev/tty1
+getty     1166            0  cwd       DIR              202,1     4096          2 /
+getty     1166            0  rtd       DIR              202,1     4096          2 /
+getty     1166            0  txt       REG              202,1    32112        330 /sbin/getty
+getty     1166            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+getty     1166            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+getty     1166            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+getty     1166            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+getty     1166            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+getty     1166            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+getty     1166            0    0u      CHR               4,64      0t0       5917 /dev/ttyS0
+getty     1166            0    1u      CHR               4,64      0t0       5917 /dev/ttyS0
+getty     1166            0    2u      CHR               4,64      0t0       5917 /dev/ttyS0
+kauditd   1264            0  cwd       DIR              202,1     4096          2 /
+kauditd   1264            0  rtd       DIR              202,1     4096          2 /
+kauditd   1264            0  txt   unknown                                        /proc/1264/exe
+sshd      2910            0  cwd       DIR              202,1     4096          2 /
+sshd      2910            0  rtd       DIR              202,1     4096          2 /
+sshd      2910            0  txt       REG              202,1   766784       8702 /usr/sbin/sshd
+sshd      2910            0  DEL       REG                0,4               14286 /dev/zero
+sshd      2910            0  mem       REG              202,1    14464     396125 /lib/x86_64-linux-gnu/security/pam_env.so
+sshd      2910            0  mem       REG              202,1    22896     396134 /lib/x86_64-linux-gnu/security/pam_limits.so
+sshd      2910            0  mem       REG              202,1    10320     396138 /lib/x86_64-linux-gnu/security/pam_mail.so
+sshd      2910            0  mem       REG              202,1    10344     396140 /lib/x86_64-linux-gnu/security/pam_motd.so
+sshd      2910            0  mem       REG              202,1    14592     396080 /lib/x86_64-linux-gnu/libpam_misc.so.0.82.0
+sshd      2910            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+sshd      2910            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+sshd      2910            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+sshd      2910            0  mem       REG              202,1    42864     396153 /lib/x86_64-linux-gnu/security/pam_systemd.so
+sshd      2910            0  mem       REG              202,1    10376     396159 /lib/x86_64-linux-gnu/security/pam_umask.so
+sshd      2910            0  mem       REG              202,1    10288     396132 /lib/x86_64-linux-gnu/security/pam_keyinit.so
+sshd      2910            0  mem       REG              202,1    10344     396137 /lib/x86_64-linux-gnu/security/pam_loginuid.so
+sshd      2910            0  mem       REG              202,1    18752     396148 /lib/x86_64-linux-gnu/security/pam_selinux.so
+sshd      2910            0  mem       REG              202,1    10272     396142 /lib/x86_64-linux-gnu/security/pam_nologin.so
+sshd      2910            0  mem       REG              202,1    18952     396041 /lib/x86_64-linux-gnu/libcap.so.2.24
+sshd      2910            0  mem       REG              202,1    10376     396121 /lib/x86_64-linux-gnu/security/pam_cap.so
+sshd      2910            0  mem       REG              202,1     6112     396143 /lib/x86_64-linux-gnu/security/pam_permit.so
+sshd      2910            0  mem       REG              202,1     6024     396123 /lib/x86_64-linux-gnu/security/pam_deny.so
+sshd      2910            0  mem       REG              202,1    60288     396160 /lib/x86_64-linux-gnu/security/pam_unix.so
+sshd      2910            0  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+sshd      2910            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+sshd      2910            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+sshd      2910            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+sshd      2910            0  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+sshd      2910            0  mem       REG              202,1    14256     396060 /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+sshd      2910            0  mem       REG              202,1    43672       8104 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+sshd      2910            0  mem       REG              202,1   186824       8101 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+sshd      2910            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+sshd      2910            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+sshd      2910            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+sshd      2910            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+sshd      2910            0  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+sshd      2910            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+sshd      2910            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+sshd      2910            0  mem       REG              202,1    14592     396044 /lib/x86_64-linux-gnu/libcom_err.so.2.1
+sshd      2910            0  mem       REG              202,1   831616       8103 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+sshd      2910            0  mem       REG              202,1   285848       8086 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+sshd      2910            0  mem       REG              202,1    43368     396045 /lib/x86_64-linux-gnu/libcrypt-2.19.so
+sshd      2910            0  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+sshd      2910            0  mem       REG              202,1    10680     396110 /lib/x86_64-linux-gnu/libutil-2.19.so
+sshd      2910            0  mem       REG              202,1  1930528     396046 /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+sshd      2910            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+sshd      2910            0  mem       REG              202,1    14536       8054 /usr/lib/x86_64-linux-gnu/libck-connector.so.0.0.0
+sshd      2910            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+sshd      2910            0  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+sshd      2910            0  mem       REG              202,1    36632     396112 /lib/x86_64-linux-gnu/libwrap.so.0.7.6
+sshd      2910            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+sshd      2910            0  DEL       REG                0,4               14275 /dev/zero
+sshd      2910            0    0r      CHR                1,3      0t0       5430 /dev/null
+sshd      2910            0    1u      CHR                1,3      0t0       5430 /dev/null
+sshd      2910            0    2u      CHR                1,3      0t0       5430 /dev/null
+sshd      2910            0    3u     IPv4              14252      0t0        TCP 172.31.29.203:22->146.115.83.230:60149 (ESTABLISHED)
+sshd      2910            0    4u     unix 0xffff88003ce85780      0t0      14292 socket
+sshd      2910            0    5u      CHR                5,2      0t0       5916 /dev/ptmx
+sshd      2910            0    6u     unix 0xffff88003ce85b00      0t0      14430 socket
+sshd      2910            0    7w     FIFO               0,16      0t0      14313 /run/systemd/sessions/3.ref
+sshd      2910            0    8u     unix 0xffff88003ce82680      0t0      14436 socket
+sshd      2963         1000  cwd       DIR              202,1     4096          2 /
+sshd      2963         1000  rtd       DIR              202,1     4096          2 /
+sshd      2963         1000  txt       REG              202,1   766784       8702 /usr/sbin/sshd
+sshd      2963         1000  DEL       REG                0,4               14286 /dev/zero
+sshd      2963         1000  mem       REG              202,1    14464     396125 /lib/x86_64-linux-gnu/security/pam_env.so
+sshd      2963         1000  mem       REG              202,1    22896     396134 /lib/x86_64-linux-gnu/security/pam_limits.so
+sshd      2963         1000  mem       REG              202,1    10320     396138 /lib/x86_64-linux-gnu/security/pam_mail.so
+sshd      2963         1000  mem       REG              202,1    10344     396140 /lib/x86_64-linux-gnu/security/pam_motd.so
+sshd      2963         1000  mem       REG              202,1    14592     396080 /lib/x86_64-linux-gnu/libpam_misc.so.0.82.0
+sshd      2963         1000  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+sshd      2963         1000  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+sshd      2963         1000  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+sshd      2963         1000  mem       REG              202,1    42864     396153 /lib/x86_64-linux-gnu/security/pam_systemd.so
+sshd      2963         1000  mem       REG              202,1    10376     396159 /lib/x86_64-linux-gnu/security/pam_umask.so
+sshd      2963         1000  mem       REG              202,1    10288     396132 /lib/x86_64-linux-gnu/security/pam_keyinit.so
+sshd      2963         1000  mem       REG              202,1    10344     396137 /lib/x86_64-linux-gnu/security/pam_loginuid.so
+sshd      2963         1000  mem       REG              202,1    18752     396148 /lib/x86_64-linux-gnu/security/pam_selinux.so
+sshd      2963         1000  mem       REG              202,1    10272     396142 /lib/x86_64-linux-gnu/security/pam_nologin.so
+sshd      2963         1000  mem       REG              202,1    18952     396041 /lib/x86_64-linux-gnu/libcap.so.2.24
+sshd      2963         1000  mem       REG              202,1    10376     396121 /lib/x86_64-linux-gnu/security/pam_cap.so
+sshd      2963         1000  mem       REG              202,1     6112     396143 /lib/x86_64-linux-gnu/security/pam_permit.so
+sshd      2963         1000  mem       REG              202,1     6024     396123 /lib/x86_64-linux-gnu/security/pam_deny.so
+sshd      2963         1000  mem       REG              202,1    60288     396160 /lib/x86_64-linux-gnu/security/pam_unix.so
+sshd      2963         1000  mem       REG              202,1    22952     396073 /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+sshd      2963         1000  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+sshd      2963         1000  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+sshd      2963         1000  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+sshd      2963         1000  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+sshd      2963         1000  mem       REG              202,1    14256     396060 /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+sshd      2963         1000  mem       REG              202,1    43672       8104 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+sshd      2963         1000  mem       REG              202,1   186824       8101 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+sshd      2963         1000  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+sshd      2963         1000  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+sshd      2963         1000  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+sshd      2963         1000  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+sshd      2963         1000  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+sshd      2963         1000  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+sshd      2963         1000  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+sshd      2963         1000  mem       REG              202,1    14592     396044 /lib/x86_64-linux-gnu/libcom_err.so.2.1
+sshd      2963         1000  mem       REG              202,1   831616       8103 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+sshd      2963         1000  mem       REG              202,1   285848       8086 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+sshd      2963         1000  mem       REG              202,1    43368     396045 /lib/x86_64-linux-gnu/libcrypt-2.19.so
+sshd      2963         1000  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+sshd      2963         1000  mem       REG              202,1    10680     396110 /lib/x86_64-linux-gnu/libutil-2.19.so
+sshd      2963         1000  mem       REG              202,1  1930528     396046 /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+sshd      2963         1000  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+sshd      2963         1000  mem       REG              202,1    14536       8054 /usr/lib/x86_64-linux-gnu/libck-connector.so.0.0.0
+sshd      2963         1000  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+sshd      2963         1000  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+sshd      2963         1000  mem       REG              202,1    36632     396112 /lib/x86_64-linux-gnu/libwrap.so.0.7.6
+sshd      2963         1000  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+sshd      2963         1000  DEL       REG                0,4               14275 /dev/zero
+sshd      2963         1000    0u      CHR                1,3      0t0       5430 /dev/null
+sshd      2963         1000    1u      CHR                1,3      0t0       5430 /dev/null
+sshd      2963         1000    2u      CHR                1,3      0t0       5430 /dev/null
+sshd      2963         1000    3u     IPv4              14252      0t0        TCP 172.31.29.203:22->146.115.83.230:60149 (ESTABLISHED)
+sshd      2963         1000    4u     unix 0xffff88003ce85780      0t0      14292 socket
+sshd      2963         1000    5u     unix 0xffff88003ce82300      0t0      14429 socket
+sshd      2963         1000    6r     FIFO                0,8      0t0      14434 pipe
+sshd      2963         1000    7w     FIFO               0,16      0t0      14313 /run/systemd/sessions/3.ref
+sshd      2963         1000    8w     FIFO                0,8      0t0      14434 pipe
+sshd      2963         1000    9u      CHR                5,2      0t0       5916 /dev/ptmx
+sshd      2963         1000   11u      CHR                5,2      0t0       5916 /dev/ptmx
+sshd      2963         1000   12u      CHR                5,2      0t0       5916 /dev/ptmx
+bash      2964         1000  cwd       DIR              202,1     4096     271386 /home/ubuntu
+bash      2964         1000  rtd       DIR              202,1     4096          2 /
+bash      2964         1000  txt       REG              202,1  1021112     262265 /bin/bash
+bash      2964         1000  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+bash      2964         1000  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+bash      2964         1000  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+bash      2964         1000  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+bash      2964         1000  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+bash      2964         1000  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+bash      2964         1000  mem       REG              202,1   167096     396105 /lib/x86_64-linux-gnu/libtinfo.so.5.9
+bash      2964         1000  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+bash      2964         1000  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash      2964         1000  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+bash      2964         1000    0u      CHR              136,0      0t0          3 /dev/pts/0
+bash      2964         1000    1u      CHR              136,0      0t0          3 /dev/pts/0
+bash      2964         1000    2u      CHR              136,0      0t0          3 /dev/pts/0
+bash      2964         1000  255u      CHR              136,0      0t0          3 /dev/pts/0
+su        3161            0  cwd       DIR              202,1     4096     271386 /home/ubuntu
+su        3161            0  rtd       DIR              202,1     4096          2 /
+su        3161            0  txt       REG              202,1    36936     262364 /bin/su
+su        3161            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+su        3161            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+su        3161            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+su        3161            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+su        3161            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+su        3161            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+su        3161            0  mem       REG              202,1    42864     396153 /lib/x86_64-linux-gnu/security/pam_systemd.so
+su        3161            0  mem       REG              202,1    10376     396159 /lib/x86_64-linux-gnu/security/pam_umask.so
+su        3161            0  mem       REG              202,1    18952     396041 /lib/x86_64-linux-gnu/libcap.so.2.24
+su        3161            0  mem       REG              202,1    10376     396121 /lib/x86_64-linux-gnu/security/pam_cap.so
+su        3161            0  mem       REG              202,1     6112     396143 /lib/x86_64-linux-gnu/security/pam_permit.so
+su        3161            0  mem       REG              202,1     6024     396123 /lib/x86_64-linux-gnu/security/pam_deny.so
+su        3161            0  mem       REG              202,1    43368     396045 /lib/x86_64-linux-gnu/libcrypt-2.19.so
+su        3161            0  mem       REG              202,1    60288     396160 /lib/x86_64-linux-gnu/security/pam_unix.so
+su        3161            0  mem       REG              202,1    10320     396138 /lib/x86_64-linux-gnu/security/pam_mail.so
+su        3161            0  mem       REG              202,1    14464     396125 /lib/x86_64-linux-gnu/security/pam_env.so
+su        3161            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+su        3161            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+su        3161            0  mem       REG              202,1    10312     396146 /lib/x86_64-linux-gnu/security/pam_rootok.so
+su        3161            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+su        3161            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+su        3161            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+su        3161            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+su        3161            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+su        3161            0  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+su        3161            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+su        3161            0  mem       REG              202,1    14592     396080 /lib/x86_64-linux-gnu/libpam_misc.so.0.82.0
+su        3161            0  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+su        3161            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+su        3161            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+su        3161            0    0u      CHR              136,0      0t0          3 /dev/pts/0
+su        3161            0    1u      CHR              136,0      0t0          3 /dev/pts/0
+su        3161            0    2u      CHR              136,0      0t0          3 /dev/pts/0
+su        3161            0    3u     unix 0xffff88003ce87380      0t0      15595 socket
+su        3161            0    6w     FIFO               0,16      0t0      14313 /run/systemd/sessions/3.ref
+bash      3162         1001  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+bash      3162         1001  rtd       DIR              202,1     4096          2 /
+bash      3162         1001  txt       REG              202,1  1021112     262265 /bin/bash
+bash      3162         1001  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+bash      3162         1001  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+bash      3162         1001  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+bash      3162         1001  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+bash      3162         1001  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+bash      3162         1001  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+bash      3162         1001  mem       REG              202,1   167096     396105 /lib/x86_64-linux-gnu/libtinfo.so.5.9
+bash      3162         1001  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+bash      3162         1001  mem       REG              202,1    26258       8403 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash      3162         1001  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+bash      3162         1001    0u      CHR              136,0      0t0          3 /dev/pts/0
+bash      3162         1001    1u      CHR              136,0      0t0          3 /dev/pts/0
+bash      3162         1001    2u      CHR              136,0      0t0          3 /dev/pts/0
+bash      3162         1001  255u      CHR              136,0      0t0          3 /dev/pts/0
+sshd      3619            0  cwd       DIR              202,1     4096          2 /
+sshd      3619            0  rtd       DIR              202,1     4096          2 /
+sshd      3619            0  txt       REG              202,1   766784       8702 /usr/sbin/sshd
+sshd      3619            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+sshd      3619            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+sshd      3619            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+sshd      3619            0  mem       REG              202,1   101240     396095 /lib/x86_64-linux-gnu/libresolv-2.19.so
+sshd      3619            0  mem       REG              202,1    14256     396060 /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+sshd      3619            0  mem       REG              202,1    43672       8104 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+sshd      3619            0  mem       REG              202,1   186824       8101 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+sshd      3619            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+sshd      3619            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+sshd      3619            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+sshd      3619            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+sshd      3619            0  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+sshd      3619            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+sshd      3619            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+sshd      3619            0  mem       REG              202,1    14592     396044 /lib/x86_64-linux-gnu/libcom_err.so.2.1
+sshd      3619            0  mem       REG              202,1   831616       8103 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+sshd      3619            0  mem       REG              202,1   285848       8086 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+sshd      3619            0  mem       REG              202,1    43368     396045 /lib/x86_64-linux-gnu/libcrypt-2.19.so
+sshd      3619            0  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+sshd      3619            0  mem       REG              202,1    10680     396110 /lib/x86_64-linux-gnu/libutil-2.19.so
+sshd      3619            0  mem       REG              202,1  1930528     396046 /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+sshd      3619            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+sshd      3619            0  mem       REG              202,1    14536       8054 /usr/lib/x86_64-linux-gnu/libck-connector.so.0.0.0
+sshd      3619            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+sshd      3619            0  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+sshd      3619            0  mem       REG              202,1    36632     396112 /lib/x86_64-linux-gnu/libwrap.so.0.7.6
+sshd      3619            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+sshd      3619            0    0u      CHR                1,3      0t0       5430 /dev/null
+sshd      3619            0    1u      CHR                1,3      0t0       5430 /dev/null
+sshd      3619            0    2u      CHR                1,3      0t0       5430 /dev/null
+sshd      3619            0    3u     IPv4              16607      0t0        TCP *:22 (LISTEN)
+sshd      3619            0    4u     IPv6              16610      0t0        TCP *:22 (LISTEN)
+sudo      5417            0  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+sudo      5417            0  rtd       DIR              202,1     4096          2 /
+sudo      5417            0  txt       REG              202,1   155008        969 /usr/bin/sudo
+sudo      5417            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+sudo      5417            0  mem       REG              202,1    31792     396096 /lib/x86_64-linux-gnu/librt-2.19.so
+sudo      5417            0  mem       REG              202,1    14592     396080 /lib/x86_64-linux-gnu/libpam_misc.so.0.82.0
+sudo      5417            0  mem       REG              202,1   281552     396047 /lib/x86_64-linux-gnu/libdbus-1.so.3.7.6
+sudo      5417            0  mem       REG              202,1    38920     396069 /lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+sudo      5417            0  mem       REG              202,1    96280     396070 /lib/x86_64-linux-gnu/libnih.so.1.0.0
+sudo      5417            0  mem       REG              202,1   108480     396042 /lib/x86_64-linux-gnu/libcgmanager.so.0.0.0
+sudo      5417            0  mem       REG              202,1    42864     396153 /lib/x86_64-linux-gnu/security/pam_systemd.so
+sudo      5417            0  mem       REG              202,1    10376     396159 /lib/x86_64-linux-gnu/security/pam_umask.so
+sudo      5417            0  mem       REG              202,1    18952     396041 /lib/x86_64-linux-gnu/libcap.so.2.24
+sudo      5417            0  mem       REG              202,1    10376     396121 /lib/x86_64-linux-gnu/security/pam_cap.so
+sudo      5417            0  mem       REG              202,1     6112     396143 /lib/x86_64-linux-gnu/security/pam_permit.so
+sudo      5417            0  mem       REG              202,1     6024     396123 /lib/x86_64-linux-gnu/security/pam_deny.so
+sudo      5417            0  mem       REG              202,1    43368     396045 /lib/x86_64-linux-gnu/libcrypt-2.19.so
+sudo      5417            0  mem       REG              202,1    60288     396160 /lib/x86_64-linux-gnu/security/pam_unix.so
+sudo      5417            0  mem       REG              202,1    14464     396125 /lib/x86_64-linux-gnu/security/pam_env.so
+sudo      5417            0  mem       REG              202,1   104936     396036 /lib/x86_64-linux-gnu/libaudit.so.1.0.0
+sudo      5417            0  mem       REG              202,1    55856     396079 /lib/x86_64-linux-gnu/libpam.so.0.83.1
+sudo      5417            0  mem       REG              202,1   322064       7966 /usr/lib/sudo/sudoers.so
+sudo      5417            0  mem       REG              202,1    47712     396074 /lib/x86_64-linux-gnu/libnss_files-2.19.so
+sudo      5417            0  mem       REG              202,1    47760     396076 /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+sudo      5417            0  mem       REG              202,1    97296     396071 /lib/x86_64-linux-gnu/libnsl-2.19.so
+sudo      5417            0  mem       REG              202,1    39824     396072 /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+sudo      5417            0  mem       REG              202,1   252032     396085 /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+sudo      5417            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+sudo      5417            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+sudo      5417            0  mem       REG              202,1    10680     396110 /lib/x86_64-linux-gnu/libutil-2.19.so
+sudo      5417            0  mem       REG              202,1   134296     396097 /lib/x86_64-linux-gnu/libselinux.so.1
+sudo      5417            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+sudo      5417            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+sudo      5417            0    0u      CHR              136,0      0t0          3 /dev/pts/0
+sudo      5417            0    1u      CHR              136,0      0t0          3 /dev/pts/0
+sudo      5417            0    2u      CHR              136,0      0t0          3 /dev/pts/0
+sudo      5417            0    3u     unix 0xffff88003c8d5b00      0t0      32727 socket
+sudo      5417            0    5u     unix 0xffff88003c8d2d80      0t0      32729 socket
+sudo      5417            0    6r     FIFO                0,8      0t0      32725 pipe
+sudo      5417            0    7w     FIFO                0,8      0t0      32725 pipe
+python    5418            0  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+python    5418            0  rtd       DIR              202,1     4096          2 /
+python    5418            0  txt       REG              202,1  3349512        902 /usr/bin/python2.7
+python    5418            0  mem       REG              202,1   383112     396101 /lib/x86_64-linux-gnu/libssl.so.1.0.0
+python    5418            0  mem       REG              202,1    38480       5401 /usr/lib/python2.7/lib-dynload/_ssl.x86_64-linux-gnu.so
+python    5418            0  mem       REG              202,1  1930528     396046 /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+python    5418            0  mem       REG              202,1    20664       5394 /usr/lib/python2.7/lib-dynload/_hashlib.x86_64-linux-gnu.so
+python    5418            0  mem       REG              202,1   109232       5406 /usr/lib/python2.7/lib-dynload/datetime.x86_64-linux-gnu.so
+python    5418            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+python    5418            0  mem       REG              202,1  1071552     396063 /lib/x86_64-linux-gnu/libm-2.19.so
+python    5418            0  mem       REG              202,1   100728     396113 /lib/x86_64-linux-gnu/libz.so.1.2.8
+python    5418            0  mem       REG              202,1    10680     396110 /lib/x86_64-linux-gnu/libutil-2.19.so
+python    5418            0  mem       REG              202,1    14664     396049 /lib/x86_64-linux-gnu/libdl-2.19.so
+python    5418            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+python    5418            0  mem       REG              202,1   141574     396093 /lib/x86_64-linux-gnu/libpthread-2.19.so
+python    5418            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+python    5418            0    0u      CHR              136,0      0t0          3 /dev/pts/0
+python    5418            0    1u      CHR              136,0      0t0          3 /dev/pts/0
+python    5418            0    2u      CHR              136,0      0t0          3 /dev/pts/0
+python    5418            0    3w      REG              202,1        0      27332 /tmp/LiveAcquisition/2015-11-07 10:13:51/lsof -n -P -l23.txt
+python    5418            0    4r     FIFO                0,8      0t0      33239 pipe
+sh        5599            0  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+sh        5599            0  rtd       DIR              202,1     4096          2 /
+sh        5599            0  txt       REG              202,1   121272     262280 /bin/dash
+sh        5599            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+sh        5599            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+sh        5599            0    0u      CHR              136,0      0t0          3 /dev/pts/0
+sh        5599            0    1w      REG              202,1        0      27332 /tmp/LiveAcquisition/2015-11-07 10:13:51/lsof -n -P -l23.txt
+sh        5599            0    2w     FIFO                0,8      0t0      33239 pipe
+lsof      5600            0  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+lsof      5600            0  rtd       DIR              202,1     4096          2 /
+lsof      5600            0  txt       REG              202,1   163224        794 /usr/bin/lsof
+lsof      5600            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+lsof      5600            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+lsof      5600            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+lsof      5600            0    0u      CHR              136,0      0t0          3 /dev/pts/0
+lsof      5600            0    1w      REG              202,1        0      27332 /tmp/LiveAcquisition/2015-11-07 10:13:51/lsof -n -P -l23.txt
+lsof      5600            0    2w     FIFO                0,8      0t0      33239 pipe
+lsof      5600            0    3r      DIR                0,3        0          1 /proc
+lsof      5600            0    4r      DIR                0,3        0      33242 /proc/5600/fd
+lsof      5600            0    5w     FIFO                0,8      0t0      33247 pipe
+lsof      5600            0    6r     FIFO                0,8      0t0      33248 pipe
+lsof      5601            0  cwd       DIR              202,1     4096     269135 /home/ubuntu/Linux-Remote-Live-Acquisition
+lsof      5601            0  rtd       DIR              202,1     4096          2 /
+lsof      5601            0  txt       REG              202,1   163224        794 /usr/bin/lsof
+lsof      5601            0  mem       REG              202,1  1840928     396040 /lib/x86_64-linux-gnu/libc-2.19.so
+lsof      5601            0  mem       REG              202,1   149120     396030 /lib/x86_64-linux-gnu/ld-2.19.so
+lsof      5601            0  mem       REG              202,1  1607664       1578 /usr/lib/locale/locale-archive
+lsof      5601            0    4r     FIFO                0,8      0t0      33247 pipe
+lsof      5601            0    7w     FIFO                0,8      0t0      33248 pipe

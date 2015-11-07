@@ -1,0 +1,3 @@
+ 10:13:56 up  2:17,  1 user,  load average: 0.00, 0.01, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ubuntu   pts/0    146-115-83-230.c 08:10    2:04   0.22s  0.00s sshd: ubuntu [priv] 
