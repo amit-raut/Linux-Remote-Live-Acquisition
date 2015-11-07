@@ -49,14 +49,14 @@ def main():
 			break
 		time.sleep(2)
 
-	outPath = path + str(datetime.datetime.now()) + '/'
+	outPath = path + str(datetime.datetime.now())[:19] + '/'
 	os.makedirs(outPath)
 
 	print '{:.<70}'.format('Executing Commands')
 	# Execute every command to perform Linux live acquisition
 	for cmd in cmdList:
 		if len(cmd):
-			with open(outPath + str(cmdNumber) + ' ' + cmd.replace('/', '-')  + '.txt', 'a') as outFile:
+			with open(outPath + cmd.replace('/', '-') + str(cmdNumber) + '.txt', 'a') as outFile:
 				ps = sp.Popen(cmd, stderr=sp.PIPE, stdout=outFile, shell=True)
 				time.sleep(0.2)
 				ps.terminate()
