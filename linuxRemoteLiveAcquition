@@ -49,7 +49,7 @@ def main():
 			break
 		time.sleep(2)
 
-	outPath = path + str(datetime.datetime.now()) + '/'
+	outPath = path + str(datetime.datetime.now())[:19] + '/'
 	os.makedirs(outPath)
 
 	print '{:.<70}'.format('Executing Commands')
