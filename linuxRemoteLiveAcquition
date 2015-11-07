@@ -73,7 +73,7 @@ def main():
 	print '{:.<70}'.format('Archiving The Directory')
 	# Creating gztar archive and sending it to the examinor system
 	shutil.make_archive(path + 'liveAcquisitionData', 'gztar', path)
-	scpCommand = 'scp -i /home/user/.ssh/AR_lubuntu_id_rsa ' + path + 'liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':~/Desktop/'
+	scpCommand = 'scp ' + path + 'liveAcquisitionData.tar.gz ' + user + '@' + destDomain + ':/tmp/'
 
 	print '{:.<70}'.format('Sending liveAcquisitionData.tar.gz via scp ')
 	status = os.system(scpCommand)
