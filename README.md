@@ -9,9 +9,9 @@ The preferred way for sending and receiving the files in this is via key based a
 
 # Working
 
-◦ Executing the python script will look for the command file with extension .livedata in /tmp/LiveAcquisition/ folder.
+◦ Executing the python script will look for the command file with extension .livedata in /tmp/ folder.
 
-◦ The examiner system can send the command file to the target system using secure copy (SCP) to folder /tmp/LiveAcquisition/
+◦ The examiner system can send the command file to the target system using secure copy (SCP) to folder /tmp/
 
 ◦ Once the python script finds the command file it starts executing the commands and dump output to /tmp/LiveAcquisition/<datetimedatetime.now()> folder.
 
