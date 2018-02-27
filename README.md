@@ -1,13 +1,13 @@
 # Linux Remote Live Acquisition
 Remotely Acquire Volatile Data on Linux Based System
 
-##Summary
+## Summary
 Send commands to the target Linux system using secure copy SCP and get back the output of the commands to the examiner system
 
-##Requirement
+## Requirement
 The preferred way for sending and receiving the files in this is via key based authentication. To set up key bidirectional key based secure copy transfers please follow instructions provided at http://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
 
-##Working
+## Working
 
 * Executing the python script will look for the command file with extension .livedata in /tmp/ folder.
 
@@ -21,7 +21,7 @@ The preferred way for sending and receiving the files in this is via key based a
 
 * The gztar archive is then sent back to the examiner system over secure copy (SCP)
 
-##Usage
+## Usage
 * 'Usage: linuxRemoteLiveAcquition -u [remote system user] -i [examiner system IP address]'
 
 
